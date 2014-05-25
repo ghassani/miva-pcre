@@ -1,0 +1,15 @@
+<h1>Match `^T` on `TEST` case sensitive</h1>
+
+<MvEVAL EXPR="{ regexp('^T', 'TEST', '') }" />
+
+<h1>Match `^t` on `TEST` case sensitive</h1>
+
+<MvEVAL EXPR="{ regexp('^t', 'TEST', '') }" />
+
+<h1>Match `^T` on `TEST` case insensitive</h1>
+
+<MvEVAL EXPR="{ regexp('^T', 'TEST', 'i') }" />
+
+<h1>Match `^t` on `TEST` case insensitive</h1>
+
+<MvEVAL EXPR="{ regexp('^t', 'TEST', 'i') }" />
